@@ -7,15 +7,15 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    input1 = browser.find_element_by_tag_name('input')
+    input1 = browser.find_element('tag name', 'input')
     input1.send_keys("Evgeniy")
-    input2 = browser.find_element_by_name('last_name')
+    input2 = browser.find_element('name', 'last_name')
     input2.send_keys("Andreev")
-    input3 = browser.find_element_by_class_name('city')
+    input3 = browser.find_element('class name', 'city')
     input3.send_keys("Yaroslavl")
-    input4 = browser.find_element_by_id('country')
+    input4 = browser.find_element('id', 'country')
     input4.send_keys("Russia")
-    button = browser.find_element_by_css_selector("button.btn")
+    button = browser.find_element('css selector', 'button.btn')
     button.click()
 
 finally:

@@ -2,13 +2,14 @@ from selenium import webdriver
 import time
 
 try:
-    link = "http://suninjuly.github.io/registration1.html"
-    # link = "http://suninjuly.github.io/registration2.html"
+    # link = "http://suninjuly.github.io/registration1.html"
+    link = "http://suninjuly.github.io/registration2.html"
     browser = webdriver.Chrome()
     browser.get(link)
 
     # Ваш код, который заполняет обязательные поля
-    element1 = browser.find_element_by_css_selector("[placeholder='Input your first name']")
+    element1 = browser.find_element(By.CSS_selector, "[placeholder='Input your first name']")
+    # element1 = browser.find_element_by_css_selector("[placeholder='Input your first name']")
     element2 = browser.find_element_by_css_selector("[placeholder='Input your last name']")
     element3 = browser.find_element_by_css_selector("[placeholder='Input your email']")
 
