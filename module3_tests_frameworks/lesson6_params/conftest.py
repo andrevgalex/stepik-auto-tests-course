@@ -6,7 +6,8 @@ from selenium.webdriver.common.by import By
 def browser():
     print("\nstart browser for test..")
     browser = webdriver.Chrome()
-    browser.implicitly_wait(10)
+    browser.implicitly_wait(10) #относится к find'ам
     yield browser
     print("\nquit browser..")
     browser.quit()
+
