@@ -1,0 +1,28 @@
+1711653569823	geckodriver	INFO	Listening on 127.0.0.1:52890
+1711653572915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofilesSdmFJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711653573087	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711653573125	Marionette	INFO	Listening on port 52898
+WebDriver BiDi listening on ws://127.0.0.1:52891
+Read port: 52898
+1711653573272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52891/devtools/browser/3e904b50-e02b-4621-869a-08ebdd428d94
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1711653575489	Marionette	INFO	Stopped listening on port 52898
+Dynamically enable window occlusion 1
+1711654048418	geckodriver	INFO	Listening on 127.0.0.1:53236
+1711654051506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileQEbKCt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711654051682	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711654051718	Marionette	INFO	Listening on port 53244
+WebDriver BiDi listening on ws://127.0.0.1:53237
+Read port: 53244
+1711654051874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53237/devtools/browser/b7cb0084-5aa9-45eb-aa1e-f03b89bdfcc0
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1711654053947	Marionette	INFO	Stopped listening on port 53244
+Dynamically enable window occlusion 1

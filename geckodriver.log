@@ -1,0 +1,30 @@
+1711648984331	geckodriver	INFO	Listening on 127.0.0.1:50542
+1711648987377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\andre\\AppData\\Local\\Temp\\rust_mozprofileesMhuZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711648988147	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1711648988204	Marionette	INFO	Listening on port 50557
+WebDriver BiDi listening on ws://127.0.0.1:50543
+Read port: 50557
+1711648988396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50543/devtools/browser/40811dd3-5b6f-4c58-9a41-033d75900aa8
+JavaScript warning: https://cdn.stepik.net/static/frontend-build/vendor.js?1711469596, line 6289: unreachable code after return statement
+JavaScript error: https://cdn.stepik.net/static/frontend-build/vendor.js?1711469596, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+JavaScript warning: https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QAuKusD7oFG1UXiuag5gcNgO2fUkEat6DoB0sIV2Wox1nOyFYxf4aBZq1qKQOWMhqSHC0nh8tCjYHw41Fok2pg, line 207: Script terminated by timeout at:
+EmptyFunc@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=QAuKusD7oFG1UXiuag5gcNgO2fUkEat6DoB0sIV2Wox1nOyFYxf4aBZq1qKQOWMhqSHC0nh8tCjYHw41Fok2pg:207:5
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK, line 338: Script terminated by timeout at:
+R@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:338:9
+aa.Xm@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:642:13
+c@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:663:677
+Gm@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:342:298
+Fm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:345:279
+Fm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:343:207
+ym@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:340:636
+FH/<@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:664:178
+aa.Tk/<@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:611:126
+aa.Tk/c/<@https://www.googletagmanager.com/gtag/js?id=G-3YHTYDHHZK:610:420
+
+1711649002370	Marionette	INFO	Stopped listening on port 50557
+Dynamically enable window occlusion 1
